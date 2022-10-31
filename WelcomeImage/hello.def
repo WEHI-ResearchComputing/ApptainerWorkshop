@@ -1,8 +1,8 @@
 Bootstrap: docker
-From: ubuntu:20.04
+From: ubuntu
 
 %files
-    logo.txt /root/message.txt
+    logo.txt /opt/message.txt
 
 %runscript
-    cat /root/message.txt
+    cat /opt/message.txt
